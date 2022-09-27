@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.header-items{
+    font-size: 0.9em;
+}
+.logo{
+    width: 48px;
+    height: 24px;
+    margin-left: 40px;
+}
+
+.nav-item{
+    
+    white-space: nowrap;
+}
+.search-icon{
+    font-size: 0.9em;
+}
+.menu-btn{
+    border: 0;
+    font-size: 12px;
+    
+}
+.main-img{
+  background-image : url('images/audi-main.jpg');
+  background-size : cover;
+  background-position: center;
+  height: 100vh;
+  z-index: 1040;
+    
+}
+.main-body,.col-12{
+    
+    overflow-y:hidden; /* <--- this guy right here */
+   
+    
+}
+*{
+    overflow-x: hidden;
+    
+}
+
+.exp-button1{
+
+    font-size: 12px;
+    height: 48px;
+    width: 144px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+}
+.exp-button2{
+    font-size: 12px;
+    height: 48px;
+    width: 80%;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    margin-top:80%;
+    position: static;
+}
+.models{
+    width: 177px;
+    height: 100px
+}
+.carousel-item{
+position: relative;
+}
+.prev-btn{
+    background-color: white;
+    opacity: 1;
+    width: 40px;
+    border-right: 1px solid black;
+}
+.next-btn{
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    width: 40px;
+    border-left: 1px solid black;
+    
+}
+.fourth-div{
+    background-image: url('images/E-tronHub-cover.jpg');
+    background-size : cover;
+    background-position:top;
+    height: 170vh;
+    width: 100%;
+  
+}
+.home-electric{
+    margin-top: 300px;
+}
+.footer-links{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.footer-links:hover{
+   color: rgb(213, 215, 218);
+}
+.footer-heading{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+

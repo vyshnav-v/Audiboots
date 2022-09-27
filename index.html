@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="audi.js"></script>
+</head>
+
+<body>
+
+
+
+
+  <header>
+    <div class="row  ">
+      <div class="col-md-8 col-sm-8 col-8">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+          <div class="container-fluid">
+
+            <button style="color: black;" class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="fa-solid fa-bars"></span><span> Menu</span>
+            </button>
+
+            <a class="navbar-brand ml-auto" href="#"><img class="logo" src="images/audi.svg" alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-items">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Models</a>
+                </li>
+                <li class="nav-item">
+                  <a id="head-link1" class="nav-link" href="#">Used Cars</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Customer area</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Innovation</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Quick Links</a>
+                </li>
+
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="col-md-4 col-sm-4 col-4 text-end my-auto d-none   d-lg-block bg-white ">
+        <i class="fa-solid fa-magnifying-glass me-5 search-icon "></i>
+      </div>
+    </div>
+  </header>
+  <div class="head-click" id="head-actions">
+
+  </div>
+  <section>
+    <div class="container-fluid main-body">
+      <div class="row ">
+        <div class="col-12 main-img img-responsive p-5">
+          <div class="col-12">
+            <h2 class="text-white " style="overflow-y: hidden;">Moving forward with audi</h2>
+            <p class="text-white " style="font-size: 18px;">The new Audi A4</p>
+          </div>
+          <div class="row">
+            <div class=" col-3  d-none d-sm-block ">
+              <button class="exp-button1 bg-white  ">
+                Explore
+              </button>
+            </div>
+          </div>
+
+          <div class=" col-sm-3 text-center d-sm-none ">
+            <button class="exp-button2 bg-white  ">
+              Explore
+            </button>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class=" col-12 blank-sec bg-dark" style="height: 3rem;">
+
+  </div>
+  <div>
+    <u>
+      <p class="mx-5 my-2" style="font-size: 12px;">Models</p>
+    </u>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row" style="font-size: 12px;">
+          <div class="col-2 text-center">
+            <img src="images/etron-gt.png" class="d-block w-100" alt="...">
+            <p>etron GT</p>
+          </div>
+          <div class="col-2 text-center">
+            <img src="images/etron.png" class="d-block w-100" alt="...">
+            <p>etron</p>
+          </div>
+          <div class="col-2 text-center">
+            <img src="images/a4.png" class="d-block w-100" alt="...">
+            <p>A4</p>
+          </div>
+          <div class="col-2 text-center">
+            <img src="images/a5.png" class="d-block w-100" alt="...">
+            <p>A5</p>
+          </div>
+          <div class="col-2 text-center">
+            <img src="images/a6.png" class="d-block w-100" alt="...">
+            <p>A6</p>
+          </div>
+          <div class="col-2 text-center">
+            <img src="images/a8.png" class="d-block w-100" alt="...">
+            <p>A8</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+
+        <div class="row " style="font-size: 12px;">
+          <div class="col-2 text-center">
+            <img src="images/q3.png" class="d-block w-100" alt="...">
+            <p>Q3</p>
+          </div>
+          <div class="col-2 text-center">
+            <img src="images/q5.png" class="d-block w-100" alt="...">
+            <p> Q5</p>
+          </div>
+          <div class="col-2 text-center">
+            <img src="images/q7.png" class="d-block w-100" alt="...">
+            <p>Q7</p>
+          </div>
+          <div class="col-2 text-center">
+            <img src="images/q8.png" class="d-block w-100" alt="...">
+            <p>Q8</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev prev-btn" type="button" data-bs-target="#carouselExampleControls"
+      data-bs-slide="prev">
+      <span class="fa-solid fa-chevron-left text-dark aria-hidden=" true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next next-btn" type="button" data-bs-target="#carouselExampleControls"
+      data-bs-slide="next">
+      <span class="fa-solid fa-chevron-right text-dark" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <section>
+    <div class="container">
+      <div class="row px-5">
+        <div class="col-12  col-sm-6 mx-auto  my-5">
+          <img src="images/audi virtual show.jpg" class="img-fluid"
+            style=" width:100%;height:100%;background-size: cover;" alt="">
+
+        </div>
+        <div class=" col-12 col-sm-6  my-auto">
+
+          <div style="font-size:2em;width: 100%;">
+            Audi Virtual showroom
+          </div>
+          <div>
+            <button class="bg-dark text-white" style="width: 170px;height:50px;font-size: 12px;  "> Explore
+              more</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class=" my-5 col-12 container-fluid fourth-div">
+      <div class="row px-5 home-electric">
+        <div class="col-md-6 bg-white p-5 display-inline" style="font-size:12px;">
+          <div class="row">
+            <h2 style="overflow-y: hidden;" class="">The home of electric</h2>
+            <p>Seeing the world with different eyes is what drives us. Discover more about our vision of the future of
+              mobility. Learn more about the technology in the Audi e-tron along with the charging options, range
+              calculations and its benefits.</p>
+            <div style="display:flex;">
+              <button class="bg-dark text-white  text-center" style="height: 40px;width: 140px;">e-tron Hub</button>
+
+
+              <button class="bg-white text-dark mx-1" style="height:40px;width: 220px;">#FutureIsAnAttitude</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section>
+    <div class="container p-5">
+      <div class="row ar-banner">
+        <div class="col-sm-6">
+          <img src="images/E-Tron_AR-Banner.jpg" style="width: 100%;height:100%" alt="">
+
+        </div>
+        <div class="col-sm-6 my-auto">
+          <h2 style="overflow-y: hidden;">Augmented Reality</h2>
+          <div style="display:flex;font-size: 12px;">
+            <button class="bg-dark text-white" style="width:140px;height:40px">e-tron</button>
+            <button class="bg-white mx-1" style="width:220px;height:40px">e-tron sportback</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="my-5">
+
+    <div class="row bg-dark" style="margin-left: 0;margin-right: 0;width: 100%;">
+      <div class="col-sm-7 col-12 bg-dark text-white padding-0 ">
+        <h2 class="mx-3" style="overflow-y: hidden;margin-top: 300px;">Because you expect more from your Audi than just
+          a drive from A to B. Download it now, to get more of your car on your phone.
+          myAudi</h2>
+        <div class="row d-flex my-3" style="font-size: 12px; align-items: center;">
+          <button class="text-white bg-dark mx-4" style="border:1px solid white ;height:40px;width: 130px;">My
+            AudiConnect</button>
+          <button class="text-white bg-dark mx-1"
+            style="border:1px solid white;height: 40px;width: 100px;">AudiShop</button>
+        </div>
+
+      </div>
+      <div class="col-sm-5 col-12 padding-0 flex-column-reverse">
+        <img src="images/audi connect.jpg" alt="" style="width: 100%;height:100%; background-size:cover;">
+
+      </div>
+
+    </div>
+
+  </section>
+  <section class="">
+    <div class="row my-5 ms-2" style="font-size:12px;">
+      <div class="col-sm-6 text-start px-2 ">
+        <h2 class="my-2" style="overflow-y: hidden;">Locate your dealer</h2>
+        <p class="my-2">Find your local Audi Partner and discover your desired Audi live.</p>
+        <input class="my-2" type="text" placeholder="city or postal code"
+          style="outline: none;width: 80%;border: 0;border-bottom: solid 1px black;">
+        <button class="bg-dark text-white my-2" style="width:180px;height:40px">Search</button>
+
+      </div>
+      <div class="col-sm-6">
+        <img src="images/india map.jpg" style="width:100%;height: 100%;" alt="">
+      </div>
+    </div>
+  </section>
+  <footer class="text-white bg-dark">
+    <div class="row">
+      <div class="col-12 text-end p-4">
+        <a href="#" class="my-2  me-auto back-to-top" style="text-decoration: none; font-size: 10px;color: white;">
+          <span>back to top</span><span class="fa-solid fa-chevron-up text-white"></span></a>
+
+      </div>
+    </div>
+  </footer>
+  <footer class="bg-dark">
+    <div class="container">
+      <div class="row text-white bg-dark text-center" style="font-size: 10px;">
+        <div class="col-6 col-md-2 text-start">
+          <h6 class="footer-heading" style="overflow-y:hidden;"> models</h6>
+          <p> <a class="footer-links" href="">All models</a></p>
+          <p><a class="footer-links" href="">Model price list</a></p>
+
+        </div>
+        <div class="col-6 col-md-2 text-start">
+          <h6 class="footer-heading" style="overflow-y:hidden;"> Used Cars</h6>
+          <p> <a class="footer-links" href="">Audi approved plus</a></p>
+
+        </div>
+        <div class=" col-6 col-md-3 text-start">
+          <h6 class="footer-heading" style="overflow-y:hidden;"> Customer Area</h6>
+          <p> <a class="footer-links" href="">Audi owners</a></p>
+          <p> <a class="footer-links" href="">Audi service</a></p>
+          <p> <a class="footer-links" href="">myAudi Connect</a></p>
+          <p> <a class="footer-links" href="">Sustainability</a></p>
+          <p> <a class="footer-links" href="">Discover Audi from Home</a></p>
+          <p> <a class="footer-links" href="">Book a test drive</a></p>
+        </div>
+        <div class="col-6 col-md-2 text-start">
+          <h6 class="footer-heading" style="overflow-y:hidden;"> Innovation</h6>
+          <p> <a class="footer-links" href="">Audi sport</a></p>
+          <p> <a class="footer-links" href="">Audi RS e-tron GT</a></p>
+          <p> <a class="footer-links" href="">Audi e-tron GT</a></p>
+          <p> <a class="footer-links" href="">Audi quattro</a></p>
+          <p> <a class="footer-links" href="">Audi e-tron Hub</a></p>
+        </div>
+        <div class="col-6 col-md-3 text-start">
+          <h6 class="footer-heading" style="overflow-y:hidden;"> Support</h6>
+          <p> <a class="footer-links" href="">Careers</a></p>
+          <p> <a class="footer-links" href="">Press</a></p>
+          <p> <a class="footer-links" href="">Audi shop</a></p>
+          <p> <a class="footer-links" href="">Imprint</a></p>
+          <p> <a class="footer-links" href="">Corporate Governance</a></p>
+          <p> <a class="footer-links" href="">Contact / Newsletter</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="bg-dark ">
+    <div class="conatiner m-5">
+      <div class="row" style="border-bottom: 1px solid white;">
+        <div class="col-6  d-block d-sm-none">
+          <a href=""><i class="fa-brands fa-facebook-f text-white mx-1"></i></a>
+          <a href=""><i class="fa-brands fa-instagram text-white mx-1"></i>
+          <a href=""><i class="fa-brands fa-youtube text-white mx-1"></i></a>
+         <a href=""> <i class="fa-brands fa-twitter text-white mx-1"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin text-white mx-1"></i></a>
+
+        </div>
+        <div class="col-6 text-right d-none d-sm-block ">
+          <a href=""><i class="fa-brands fa-facebook-f text-white mx-1"></i></a>
+          <a href=""><i class="fa-brands fa-instagram text-white mx-1"></i>
+          <a href=""><i class="fa-brands fa-youtube text-white mx-1"></i></a>
+         <a href=""> <i class="fa-brands fa-twitter text-white mx-1"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin text-white mx-1"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <footer class="bg-dark p-4">
+    <div class="row">
+      <div class="col-10 col-sm-8 col-md-6 d-flex"> 
+        <p class="mx-1" style="color: white;font-size: 11px;">© 2021 © AUDI AG.</p>
+        <a class="footer-links mx-1" href="">legal</a>
+        <a class="footer-links mx-1" href="">Cookie policy</a>
+        <a class="footer-links mx-1 " href="">Press</a>
+        <a class="footer-links mx-1" href="">Cookie Settings</a>
+        <a class="footer-links mx-1" href="">Careers</a>
+
+      </div>
+      <div class="col-2 col-sm-4 col-md-6">
+        
+      </div>
+
+    </div>
+
+  </footer>
+  <footer class="bg-dark text-white">
+    <div class="conatiner p-4">
+    <div class="row" style="font-size: 10px;">
+      <div class="col-12">
+        <p>“The specified values of fuel consumption and emission are determined according to the mandatory emission test measurement specified in Rule 115 of Central Motor Vehicle Rules 1989 (CMVR), under controlled conditions using reference fuel, at an agency authorized under Rule 126 of CMVR. Fuel consumption and emission values may vary due to factors such as driving habits, road and traffic condition, fuel quality, maintenance practices, loading pattern, ambient condition and engineering tolerances etc.</p>
+      </div>
+      <div class="col-12">
+        <p>The values declared for the vehicles have been obtained from one of the variant tested as per Central Motor Vehicle Rule 115. Fuel consumption and emission value for other variants may differ. Audi India or its authorize dealers shall not be held liable for any difference in fuel consumption values, due to any of the aforesaid variables.</p>
+      </div>
+      <div class="col-12">
+        <p>Due to constant product improvement / changes in regulatory framework, technical specification provided herewith are subject to change without prior notice, customers are requested to contact Audi Call Centre / Audi Authorised Dealer for further details.”</p>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/4c18e8bc5e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
